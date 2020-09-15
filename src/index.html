@@ -1,0 +1,534 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+
+
+<div class="container-fluid">
+
+<div class="row">
+
+  <div class="col-md-2 col-sm-3 col-xs-3 col-lg-2" style="background-color:#ffffff">  <!--start of 1st left column-->
+	<div class="navbar-header">
+	<a href="#" class="navbar-brand" style="text-align:left" id="">
+	<img id="drag1" class="img-responsive" src="http://res.cloudinary.com/dd5orlb7v/image/upload/v1497632078/zeta_nrtvf2.jpg" alt="Zetacoms"></a>
+	</div>
+</div> <!-- end of 1st column -->
+
+
+<div class="col-md-3 col-sm-4 col-xs-3 col-lg-3"> <!--start of 2nd column-->
+<ul class="nav navbar-nav">
+
+<li class="active"><a href="#" style="background-color:#000000;color:cream" id="hme">Home</a>
+</li>
+	
+<li><a href="#" style="background-color:#000000;color:cream" id="contac">Contact</a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" style="background-color:#000000;color:cream" id="abt">About<span class="caret"></span></a>
+	<ul class="dropdown-menu"  id="drp">
+		<li class="active"><a href="#" style="background-color:#000000;color:red;text-shadow
+		:8px -6px 3px lime">content 1</a></li>
+		<li><a href="#" style="background-color:#5d8e31;color:blue;text-shadow
+		:15px -6px 3px white;text-decoration:transparent">content 2</a></li>
+		<li><a href="#" style="background-color:#000000;color:lime;text-shadow
+		:15px -6px 3px red;text-decoration:transparent">content 3</a></li>
+	</ul>
+</li>
+
+</div> <!--2nd column ends-->
+
+<!--</nav>-->
+
+<div class="col-md-7 col-sm-5 col-xs-6 col-lg-7">  <!--3rd column starts-->
+
+<form ng-app="myApp" name="myForm" ng-controller="myCtrl" class="navbar-form navbar-right" action="#" method="POST">
+
+	
+	<div class="form-group">
+	<label for="mail" class="col-md-2">Email Add</label>
+    <div class="col-md-10">
+	<input type="email" class="form-control input-sm" ng-model="myEmail" name="myEmail" placeholder="Your Name"></input>
+    <span ng-show="myForm.myEmail.$error.email">Invalid Email Address</span></div>
+	</div>
+
+	<div class="form-group">
+	<label for="pwd" class="col-md-2">Pwd</label>
+    <div class="col-md-10">
+	<input type="password" class="form-control input-sm" ng-model="myPass" name="myPwd" id="word" placeholder="Your password"></input>
+    </div>
+	</div>
+
+	
+	<button type="submit" class="btn btn-primary btn-sm">Submit</button>
+	
+	
+</form>
+</div> <!--3rd column ends-->
+
+
+<div class="clearfix visible-xs></div>"
+
+</div>   <!--end of horizontal div-->
+
+</nav>
+
+
+
+
+<div class="container" style="box-shadow:2px 4px 3px blue, 2px 4px 3px yellow;top-margin:6px" id="show">  <!--nav contents goes here-->
+
+
+		
+	<div style="background-color:black;color:lime;font-family:sofia;width:
+	;height:;text-align:center;margin:10px 10px 10px 10px;display:none;font-size:12px" 
+	id="hmecontent">
+	<h5 class="text-center">Welcome to home content</h5>
+	<p>This is the home, all home info goes here.</p>
+	This page will be updated soonest.Watch out!!
+	</div>
+	
+	
+	<div style="background-color:black;color:lime;font-family:sofia;width:
+	;height:;text-align:center;margin:10px 10px 10px 10px;display:none;font-size:12px" id="contaccontent">
+	<h5 class="text-center">Welcome to contact content</h5>
+	<p>This is the contact, all contact info goes here.</p>
+	This page will be updated soonest.Watch out!!
+	</div>
+	
+	
+</div>
+
+
+ <br><br><br>
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:100%;height:20%:margin:auto"> <!--begining of carousel-->
+  
+  <!--carousel indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+ </ol>  <!--end of indicators-->
+  
+  
+  
+  <!--slides wrapper-->
+  <div class="carousel-inner container">
+    
+    <div class="item active"> <!--1st item start-->
+      <img src="http://res.cloudinary.com/dd5orlb7v/image/upload/v1498220792/random_quote_new_qpgzw3.jpg" alt="Random Quote Gen" style="margin:auto"></img>
+      <div class="carousel-caption" style="color:black;text-align:right">
+        <h3>My Random Quote Generator</h3>
+        <p>A random quote generator I wrote in javaScript</p>
+      </div>
+    </div>
+    
+    
+    
+    <div class="item"> <!--2nd item start-->
+      <img src="http://res.cloudinary.com/dd5orlb7v/image/upload/v1497598639/webpage_shot_autsrq.png" alt="Logo" style="height:20%;margin:auto">
+      <div class="carousel-caption" style="color:black;text-align:right">
+        <h3>My profile page</h3>
+        <p>Welcome to my profile webpage</p>
+      </div>
+    </div>
+   
+    
+     <div class="item"> <!--3rd item start-->
+      <img src="http://res.cloudinary.com/dd5orlb7v/image/upload/v1496933505/Fola_profile_page_gohnir.jpg" alt="Profile page of a client" style="margin:auto">
+      <div class="carousel-caption" style="color:red;text-align:right">
+        <h3>Profile Webpage designed for a client</h3>
+        <p>The profile webpage I designed for a client</p>
+      </div>
+    </div>
+  
+  </div> <!--end of slide pics-->
+  
+  
+  <!--start of carousel left controls-->
+    
+    <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>  <!--left carousel control-->
+  
+  
+  
+  <!--start of carousel right controls-->
+    
+    <a href="#myCarousel" class="right carousel-control" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>  <!--right carousel control-->
+  
+  
+  
+  </div> <!--end of carousel-->
+  
+
+ 
+  
+  
+<p id="up"></p>
+
+ 
+
+ <body id="mainContain">
+ 
+
+	 
+
+<div class="">    <!--link content div starts here-->
+
+
+
+  
+  
+
+  
+  
+  
+	<div  class="pagination" id="content">
+	
+		<img src="http://res.cloudinary.com/dd5orlb7v/image/upload/v1497632078/zeta_nrtvf2.jpg" 
+	 class="img-responsive" alt="zetacoms" style="width:200px;height:70px">
+	 
+         </img>
+		
+		
+		
+			
+	<br>
+	
+	
+	
+	<div class="row">  <!--new row added-->
+	
+	
+	
+	
+	<div class="col-md-4 col-sm-5 col-xs-5 col-lg-4"> <!--1st column starts-->
+	
+	
+	<p style="font-size:17px;border-radius:5px;border-style:;text-shadow:2px 3px 6px blue, 2px 3px 6px red">
+	<strong>Please visit our gallery by clicking on the links 
+	<strong><span style="font-size:40px;color:black">&raquo;&raquo;</span></strong>
+	</strong></p>
+	
+	<p style="text-align:justify;margin-top:20px;margin-left:5px;padding:5px 5px;text-shadow:3px 3px 6px black">
+	The links display a gallery of some of our works.<br>You can hover on each link to see pictures of works<br> we have doneand you could also clink on them to take you to the site. .<br>
+	At ZetaComs, we pride ourselves in awesome designs to the satisfaction of our clients. You can never get it wrong being here.<br>
+	That's a promise!
+	</p>
+	</div> <!--1st column ends-->
+	
+	
+	
+	
+	<div class="col-md-8 col-sm-7 col-xs-7 col-lg-8" style="background-color:">  <!--2nd column starts-->
+	
+	
+	
+ <strong>
+ 
+<a href="#" id="no1">&laquo;</a>
+<a href="https://codepen.io/walexy09/full/xrxbdy/" id="no2">pics 1</a>      
+<a class="active" href="https://codepen.io/walexy09/full/YQezYd/" id="no3">pics 2</a>
+<a href="#" id="no4">pics 3 </a>
+<a href="https://codepen.io/walexy09/full/awvPWB/" id="no5">pics 4</a>
+<a href=" https://codepen.io/walexy09/pen/mweQbV" id="no6">pics 5</a>
+<a href="#" id="no7">&raquo;</a>
+
+  </strong>
+  
+ <br><br>
+   <div style="height:40%;width:100%;background-color:;display:block;margin:auto">
+<img src="http://res.cloudinary.com/dd5orlb7v/image/upload/v1496932569/sample.jpg"  id="top"  class="img-responsive"></img>
+<img src="http://res.cloudinary.com/dd5orlb7v/image/upload/v1498220792/random_quote_new_qpgzw3.jpg" id="pic2" class="img-responsive"></img>
+<img src="http://res.cloudinary.com/dd5orlb7v/image/upload/v1498741885/Jquery_Mobile_lrvemm.jpg" id="pic3" class="img-responsive"></img>
+<img src="" id="pic4" class="img-responsive"></img>
+<img src="http://res.cloudinary.com/dd5orlb7v/image/upload/v1497598639/webpage_shot_autsrq.png" id="pic5" class="img-responsive"></img>
+<img src="http://res.cloudinary.com/dd5orlb7v/image/upload/v1496933505/Fola_profile_page_gohnir.jpg" id="pic6" class="img-responsive"></img>
+	</div>
+
+<br><br>
+
+	</div>
+	
+	
+ 
+
+ </div> <!--2nd newly added column-->
+
+   
+	
+
+ </div>  <!--newly row added ends-->
+
+ 
+ 
+ <div style="margin-top:10px;display:none;background-color:black;width:100%;height:auto;margin:auto" id="services"> <!--start of display services...-->
+<br><br>
+
+<p  style="margin-top:1px"> 
+Our services are as follows:
+
+	<ul style="list-style:none">
+	<strong>
+	<li>Dynamic Web design.</li>
+	</li>Web App designs.</li> 
+	<li>skilled in jQuery.</li>
+	<li>skilled in AngularJS</li>
+	<li>Skilled in CSS3 and HTML 5.</li>
+	<li>Skilled in twitter Bootstrap for making awesome designs.</li>
+	</strong>
+	</ul>
+</p>
+ 
+ </div> <!--display end for things we do, services...-->
+ 
+ 
+ 
+ <div style="margin-top:10px;display:none;background-color:black;width:100%;height:auto;margin:auto" id="requestquote"> <!--start of display for request for quote...-->
+<br><br>
+
+<p> 
+Please find our contact below:<br>
+
+  No 13, Adeshiyan Street, Ojota, Lagos, Nigeria.<br>
+  
+</p>
+ 
+ </div> <!--display end for request for quote...-->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div style="margin-top:10px;display:none;background-color:black;width:100%;height:auto;margin:auto" id="information"> <!--start of display for information...-->
+<br><br>
+
+<p> 
+Please for any infomation:<br>
+
+ You can send an email to any the following email addresses:
+ 
+ <p>walexyaj09@gmail.com</p>
+ <br>
+ 
+			OR
+ 
+ <p>call +2348166239037</p>
+ 
+ <p> Thank You!</p> 
+</p>
+ 
+ </div> <!--display end for infomation...-->
+ 
+ 
+ 
+ <div style="margin-top:10px;display:none;background-color:black;width:100%;height:auto;margin:auto" id="ourcontact"> <!--start of display for ourcontact...-->
+<br><br>
+
+<p> 
+Please see below infomartion for our contact:<br>
+
+We have presence in Lagos State, Nigeria:
+ 
+ <p>NO 13, Adeshiyan Street, ojota, Lagos is our Head Quaters.</p>
+ <br>
+ 
+ <p>Also present at Ikorodu, No 13, Company Road, Jerry Farm Estate, Odongunyan, Ikorodu <br> Lagos. </p>
+ 
+ <p> Thank You!</p> 
+</p>
+ 
+ </div> <!--display end for ourcontact...-->
+ 
+ 
+ 
+ 
+ 
+ <div style="margin-top:10px;display:none;background-color:black;width:100%;height:auto;margin:auto;text-align:justify" id="ouremail"> <!--start of display for email...-->
+<br><br>
+
+<p> 
+Please find our emails below <span class="glyphicon glyphicon-envelope"></span>:
+
+ <p> Email us at walexy85@gmail.com.</p><br>
+  
+				OR
+				
+<p>Send us a mail at walexyaj09@gmail.com</p>
+</p>
+ 
+ </div> <!--display end for our email...-->
+ 
+ 
+ 
+ 
+ <div style="margin-top:10px;display:none;background-color:black;width:100%;height:auto;margin:auto;text-align:justify" id="ourphone"> <!--start of display for phone...-->
+<br><br>
+
+<p> 
+Please find our phone numbers below <span class="glyphicon glyphicon-phone"></span>:
+
+ <p> +2348099444479.</p><br>
+  
+				OR
+				
+	<p>+2348166239037</p>
+</p>
+ 
+ </div> <!--display end for our phone...-->
+ 
+ 
+ 
+ <div style="margin-top:10px;display:none;background-color:black;width:100%;height:auto;margin:auto;text-align:justify" id="ouradd"> <!--start of display for our address...-->
+<br><br>
+
+<p> 
+Please find our Address below <span class="glyphicon glyphicon-home"></span>:
+
+ <p>NO 13, Adeshiyan Street, ojota, Lagos is our Head Quaters.</p><br>
+  
+				OR
+				
+<p>Also present at Ikorodu, No 13, Company Road, Jerry Farm Estate, Odongunyan, Ikorodu <br> Lagos. </p>
+ 
+</p>
+ 
+ </div> <!--display end for our address...-->
+ 
+ 
+ 
+ 
+ <div style="margin-top:10px;display:none;background-color:black;width:100%;height:auto;margin:auto;text-align:justify" id="ourabout"> <!--start of display about us...-->
+<br><br>
+
+<p> 
+ <span class="glyphicon glyphicon-user" style="text-align:center;background-color:white;font-size:30px;color:blue;font-family:sofia">
+ About Us</span>:
+
+ <p>ZetaComs inc was conconceived as a brain child of Ajayi Adewale Joshua, who is the founder </p><br>
+  
+   <div class="media"> <!--media div start-->
+     
+	<div class="media-left media-middle">
+    <img class="img-thumbnail img-responsive media-object" src="http://res.cloudinary.com/dd5orlb7v/image/upload/v1496937309/my_pics_t8uaif.png" 
+	alt="Adewale" style="width:200px;height:200px;border-radius:5px;border-width:1px;border-style:groove"></img>
+   </div>	
+			
+	<div class="media-body">	<!--media body starts-->
+   
+    <p class="media-heading">ZetaComs Inc</p>
+	<p style="text-align:justify;font-size:17px;font-family:sofia">Adewale is a graduate of Electrical Electronics Engineering from the Ladoke Akintola Univerity of Technology,<br>
+	Ogbomoso, Oyo State. <br>He has been a telecoms Engineer since he graduated from the university, but has always had a passion<br>
+	for coding. <br>Now, he is taking up his passion fully and delving into the coding world, armed with wonderful skills in the <br>
+	following areas: HTML5, CSS3, Twitter Bootstrap, JavaScript, JQuery, AngularJS and learning<br> other JavaScript frameworks, such<br>
+	as JavaScript Mobile etc.<br>
+	He has various wonderful ideas for making awesome web pages and web apps alike.<br>
+	
+	You are welcome to ZetaComs inc!
+
+	</p>
+   </div>
+    </div> <!--media div end-->
+    
+</p>
+ 
+ </div> <!--display end for about us...-->
+ 
+
+ 
+
+ <div class="container" id="lower">
+
+
+
+   
+  
+ <div class="row" id="lowlist">  <!--start of div row-->
+ 
+	<div class="col-md-3 col-sm-3 col-xs-3 col-lg-3" style="margin-top:80px;font-family:sofia;font-size:18px;text-align:
+  justify;background-color:black">
+ 
+		<ul style="text-decoration:block;list-style:none;color:lime;">
+		
+		<li><a href="#" id="one">Our services</a></li>
+		<li><a href="#"  id="two">Request a Quote</a></li>
+		<li><a href="#"  id="three"><span class="glyphicon glyphicon-question"></span>Information</a></li>
+	</ul>
+ 
+  <br><br><br>
+	</div>  <!--1st column-->
+ 
+ 
+
+  <div class="col-md-5 col-sm-5 col-xs-5 col-lg-5" style="margin-top:80px;font-family:sofia;font-size:18px;text-align:
+  justify;text-align:center;background-color:black">
+  
+	<ul style="text-decoration:block;list-style:none;color:lime">
+		<li><a href="#" id="four">Our Contact</a></li>
+		<li><a href="#" id="five"><span class="glyphicon glyphicon-envelope"></span>Our Email</a></li>
+		<li><a href="#" id="six"><span class="glyphicon glyphicon-phone"></span> Telephone Numbers</a></li>
+	</ul>
+	
+	
+	
+ <br><br><br>
+  </div>  <!--2nd column-->
+  
+  
+  
+  
+   <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4" style="margin-top:80px;font-family:sofia;font-size:18px;text-align:
+  justify;background-color:black">
+   
+	
+	<ul style="text-decoration:block;list-style:none;color:lime">
+		<li><a href="#" id="seven">Our Address</a></li>
+		<li><a href="#" id="eight"><span class="glyphicon glyphicon-user"></span>About</a></li>
+		<li><a href="#" id="nine"><span class="glyphicon glyphicon-home"></span> Where You can find us</a></li>
+	</ul>
+	
+	
+	 <br><br><br>
+   </div>  <!--3rd column-->
+ 
+ 
+ </div>  <!--end of div row-->
+ 
+
+ <br><br>
+  <div class="">
+    <button type="button" id="but" class="btn btn-primary btn-sm" onclick="displayFunc()"><span class="glyphicon glyphicon-thumbs-up" style="font-size:18px">Like</span><span class="badge"></span></button> 
+    
+    <button type="button" class="btn btn-primary btn-sm"><a href="https://facebook.com"><span class="badge"><span style="font-size:18px;color:blue;font-family:monospace"><strong>f</strong></span>Facebook</span></a></button> 
+   <button type="button" class="btn btn-primary btn-sm"><a href="https://twitter.com/"><span class="badge"><span class="glyphicon glyphicon-chicken"></span>Twitter</span></a></button> 
+ </div>
+ 
+ <br>
+ <div style="color:lime;background-color:blue;width:80px;height:50px;float:right" id="moving"><h4>ZetaComs</h4></div>
+ 
+ 
+ <br><br><br><br>
+ </div>
+ 
+ 
+ 
+<p><h6 style="color:#FFFFFF" class="text-center" id="dwn"><strong>Written and coded by Ajayi Adewale Joshua. All rights reserved.</strong></h6></p>
+  <h6 class="text-center"><a href="#up">Go Up</a></h6></p>
+ 
+	
+</div>		 <!--link contents end here-->
+
+
+
+
+
+
+
+</body>
+
+
+</div> <!--end of container fluid-->

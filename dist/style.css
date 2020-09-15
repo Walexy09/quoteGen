@@ -1,0 +1,573 @@
+#mainContain {
+ background-color:black;
+ color:lime;
+ font-family:sofia;
+ padding: 10px 10px 1px 10px;
+ margin-top:7px;
+ margin-left:5px;
+ margin-right:5px;
+ margin-bottom:0px;
+ text-align: justify;
+ border-right:1px;
+ border-left:1px;
+ border-style:groove;
+ border-color:red;
+ 
+}
+
+
+body {
+
+
+}
+
+
+
+
+#content {
+padding-left:5px;
+padding-top:40px;
+margin-top:5px;
+margin-bottom:2px;
+margin-right: 0px;
+margin-left:0px;
+color:red;
+font-family;sofia;
+font-size:16px;
+text-align:center;
+height:60%;
+
+}
+
+
+#content.pagination {
+display:inline;
+float:left;
+color:black;
+border-width:1px;
+font-size:18px;
+height:40%;
+width:100%;
+background-color:#fcfcfa;
+color:blue;
+padding-top:30px;
+padding-left:0px;
+margin-top: 50px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom:0px;
+box-shadow: 4px 3px 4px yellow, 4px 3px 4px blue, 4px 3px 4px green;
+}
+
+#content.pagination a.active {
+color:gold;
+background-color:black;
+font-weight:4px;
+text-decoration:none;
+font-size:20px;
+border-width:1px;
+border-style:inset;
+margin: 3px 3px;
+padding: 3px 3px;
+border-color:red;
+border-radius:1px;
+font-family:sofia;
+transition: background-color 10s, border-width:10s, border-color:10s, 
+border-radius:10s;border-style:10s;font-size 10s;margin 10s; padding 10s;
+}
+
+
+
+#content.pagination a.active:hover {
+
+color:red;
+background-color:blue;
+border-width:2px;
+border-style:solid;
+border-color:white;
+border-radius:1px;
+font-size:30px;
+margin:2px 4px;
+padding: 2px 5px;
+font-weight:4px;
+}
+
+
+
+#content.pagination a:not(.active){
+color:lime;
+background-color:black
+text-decoration:none;
+font-size:18px;
+border-width:2px;
+margin: 3px 3px;
+font-weight:4px;
+padding: 3px 3px;
+border-radius:8px;
+font-awesome:sofia;
+border-style:inset;
+border-color:yellow;
+border-radius:1px;
+transition:background-color 10s, border-width:10s, border-color:10s,
+border-radius:10s;border-style:10s;font-size 10s;margin 10s; padding 10s;
+}
+
+
+
+
+#content.pagination a:not(.active):hover{
+
+background-color:grey;
+color:blue;
+border-width:1px;
+border-style:solid;
+border-color:red;
+border-radius:1px;
+font-size:30px;
+margin:2px 5px;
+padding: 2px 5px;
+font-weight:4px;
+
+}
+
+
+
+
+label {
+background-color:black;
+color:lime;
+text-shadow:right;
+text-decoration:transparent;
+
+}
+
+
+input {
+background-color:blue;
+color:red;
+
+}
+
+
+
+}
+
+
+#sec1 {
+padding-left:10px;
+color:#000000;
+}
+
+
+#sec {
+padding-left:10px;
+color:#000000;
+}
+
+
+
+
+
+#top{
+    
+	background-color:transparent;
+	border-width:2px;
+	border-radius:8px;
+	border-style:inset;
+	border-color:blue;
+	width:70%;
+	height:300px;
+	margin:;
+	padding-bottom:10px;
+	display:none;
+	box-shadow:12px 10px 20px #000000, 12px 10px 20px #0000FF;
+	transition: width 10s, height 10s, transform 10s;
+	}
+	
+	
+	
+	#pic2{
+   
+	background-color:transparent;
+	border-width:2px;
+	border-radius:8px;
+	border-style:inset;
+	border-color:blue;
+	width:70%;
+	height:300px;
+	margin:auto;
+	display:none;
+	padding-bottom:10px;
+	box-shadow:12px 10px 20px green, 12px 10px 20px blue;
+	
+	}
+	
+	
+	
+	#pic3{
+    
+	background-color:transparent;
+	border-width:2px;
+	border-radius:8px;
+	border-style:inset;
+	border-color:blue;
+	width:70%;
+	height:300px;
+	margin:auto;
+	display:none;
+	padding-bottom:10px;
+	box-shadow:12px 10px 20px yellow, 12px 10px 20px purple;
+	}
+	
+	#pic4{
+    
+	background-color:transparent;
+	border-width:2px;
+	border-radius:8px;
+	border-style:inset;
+	border-color:blue;
+	width:70%;
+	height:300px;
+	margin:auto;
+	display:none;
+	padding-bottom:10px;
+	box-shadow:12px 10px 20px green, 12px 10px 20px blue;
+	}
+	
+	
+	#pic5{
+    
+	background-color:transparent;
+	border-width:2px;
+	border-radius:8px;
+	border-style:inset;
+	border-color:blue;
+	width:70%;
+	height300px;
+	margin:auto;
+	display:none;
+	padding-bottom:10px;
+	box-shadow:12px 10px 20px red, 12px 10px 20px white, 12px 10px 20px pink;
+	}
+	
+	
+	
+	#pic6{
+    
+	background-color:transparent;
+	border-width:2px;
+	border-radius:8px;
+	border-style:inset;
+	border-color:blue;
+	width:70%;
+	height:300px;
+	margin:auto;
+	display:none;
+	padding-bottom:10px;
+	box-shadow:12px 10px 20px orange, 12px 10px 20px white, 12px 10px 20px blue;
+	}
+	
+	
+	#no1 {
+	font-size:20px;
+	}
+	
+	#no7 {
+	font-size:20px;
+	}
+	
+	
+	#no1:hover{
+	font-size:50px;
+	}
+	
+	
+	#no7:hover{
+	font-size:50px;
+	}
+	
+
+	
+#top:hover {
+
+height:100px;
+width:800px;
+transform:skew(30deg, 50deg);
+}
+	
+	
+	
+	#abt:hover {
+	color:yellow;
+	background-color:transparent;
+	font-size:12px;
+	text-decoration;underline;
+	}
+	
+	
+	
+	
+	#abt:visit {
+	color:yellow;
+	
+	}
+	
+	
+	
+	#abt:link {
+	color:lime;
+	
+	}
+	
+	
+	
+	#abt:active {
+	color:red;
+	
+	}
+	
+	
+	#hme:hover {
+	color:blue;
+	background-color:silver;
+	font-size:12px;
+	text-decoration:underline;
+	text-shadow: 5px 5px 2px #000000;
+	}
+	
+	#hme:visit {
+	color:yellow;
+	
+	}
+	
+	
+	#hme:link {
+	color:pink;
+	
+	}
+	
+	#hme:active {
+	color:red;
+
+	}
+	
+	
+	
+	#contac {
+	color:red;
+	background-color:grey;
+	font-size:15px;
+	text-decoration:none;
+	
+	}
+	
+	#contac:visit {
+	color:yellow;
+	width:13px;
+	text-decoration:none;
+	}
+	
+	
+	#contac:link {
+	color:pink;
+	background-color:transparent;
+	}
+	
+	
+	#contac:active {
+	color:red;
+	}
+	
+	
+	#contac:hover {
+	color:red;
+	background-color:grey;
+	font-size:15px;
+	text-decoration:underline;
+	
+	}
+	
+	
+	#drp:hover {
+	font-size:25px;
+	color:black;
+	background-color:lime;
+	text-decoration;transparent;
+	}
+	
+	
+	#drp:visit{
+	font-size:25px;
+	color:green;
+	}
+
+	
+	
+	
+	
+	
+	
+	#left:hover {
+	
+	}
+	
+	
+	
+	
+	
+	input {
+	color:#000000;
+	font-family:sofia;
+	font-size: 15px;
+    box-shadow: 4px 3px 4px black, 4px 3px 4px lime;
+	text-shadow: 4px 3px 8px blue, 4px 3px 8px white;
+	}	
+	
+	
+
+	#div1:hover {
+	width:400px;
+	height:69px;
+	border-style:groove;
+	
+	}
+	
+	
+	
+	#drag1 { 
+	background:url('http://res.cloudinary.com/dd5orlb7v/image/upload/v1497632078/zeta_nrtvf2.jpg');
+	background-attachment:;
+	width:100px;
+	height:30px;
+	margin:auto;
+	
+	border-style:;
+	font-size: 30px;
+	color:red;
+	background-color:#ffffff;
+	text-decoration:transparent;
+	transition:height 5s ease 1s, width 5s linear 1s, transform 5s;
+	
+	}
+	
+	
+	#drag1:hover {
+	height:200px;
+	width:1000px;
+	color:lime;
+	transform:rotateY(360deg);
+	-ms-transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	}
+	
+	
+	#myimage{
+	background:url('http://res.cloudinary.com/dd5orlb7v/image/upload/v1497632078/zeta_nrtvf2.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:500px 800px;
+	margin:auto;
+	}
+	
+
+	#lower{  					 
+	background-color:grey; 
+	width:100%;
+	height:70%;
+	border-top-radius:10px;
+	border-bottom-color:red;
+	color:black;
+	border-top-style:;
+	border-bottom-style:groove;
+	box-shadow: 3px 2px 3px white, 3px 2px 3px black;
+	left-padding:0px;
+	padding:10px 10px ;
+	margin-bottom:40px;
+	}
+	
+	
+
+	#show {
+	width:500px;
+	
+	animation-name:showbox;
+	animation-duration: 10s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	position:relative;
+	}
+	
+	
+	
+  @keyframes showbox {      
+		 0% {background-color:red;color:black;right:80px;top:60px;}
+		 20% {background-color:orange;color:lime;left:300px;top:60px;}
+		 30% {background-color:yellow;color:black;left:300px;top:50px;}
+		 50% {background-color:green;color:green;right:300px;top:50px;}
+		 70% {background-color:blue;color:black;right:300px;top:50px;}
+		 80% {background-color:indigo;color:maroon;right:300px;top:50px;}
+		 90% {background-color:violet;color:silver;right:300px;top:80px;}
+		 100% {background-color:white;color:blue;right:80px;top:60px;}
+		}
+
+	
+	
+	
+	#moving {
+	position:absolute;
+	transition:width 2s, height 3s, transform 7s, margin 9s;
+	}
+	
+	
+	#moving:hover {
+	width:200px;
+	height:200px;
+	margin: 0px;
+	transform: matrix(2, -7, 10 , 0, 150, 50);
+	-ms-transform: matrix(2, -7, 10 , 0, 150, 50); <!-- Internet explorer 9 --->
+	-webkit-transform: matrix(2, -7, 10 , 0, 150, 50); <!-- safari --->
+	}
+	
+	
+	
+	#lowlist{
+	color:lime;
+	transition:
+	}
+	
+	#lowlist:hover{
+	color:red;
+	}
+	
+	
+	#services {
+	
+	position:absolute;
+	}
+	
+	
+	
+	#services:hover {
+	
+	color:red;
+	
+	}
+	
+	
+	
+	#requestquote, #information, #ourcontact {
+	
+	position:absolute;
+	}
+	
+	
+	#ouremail, #ourphone, #ouradd {
+	
+	position:absolute;
+	}
+	
+	
+	
+	#ourabout {
+	position:absolute;
+	}
