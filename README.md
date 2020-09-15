@@ -10,5 +10,5 @@ This is a simple random quote generator I wrote sometimes back when I started le
 
 
 <img src="https://res.cloudinary.com/dd5orlb7v/image/upload/v1600165260/checkout_lhco84.png" alt="online restuarant">
-This is an online restaurant I wrote back in 2017 in JS <a href="https://www.zetacomsinc.com/randGen.html"><i style="font-size:30px;font-color:#ff0000">Visit Online Restaurant</i></a>
+This is an online restaurant I wrote back in 2017 in JS <a href="https://codepen.io/walexy09/project/full/ZRNWry"><i style="font-size:30px;font-color:#ff0000">Visit Online Restaurant</i></a>
 
